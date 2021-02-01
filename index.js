@@ -8,7 +8,6 @@ bot.commands = new Discord.Collection();
 
 // status 
 			 let statuses = [
-				 "🔵 Service",
         "🛒NL/EN FiveM Shop",
 
     ]
