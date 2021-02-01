@@ -1,0 +1,65 @@
+{
+    "bot_setup": {
+        "prefix": "-",
+        "token": "",
+        "copyright": "© 2020 NL/EN FiveM Shop",
+        "bot_status": "online",
+        "bot_game": "NL/EN FiveM Shop",
+        "main_embed_color": "#F0FF00",
+        "debug_mode": true
+    },
+
+    "module_toggles": {
+        "welcome_leave_channel":  false,
+        "join_role": false,
+        "logs": false,
+        "moderation_commands": false,
+        "mod_logs": false,
+        "fun_commands": false,
+        "utility_commands": false,
+        "ticket_system": true,
+        "filter_lang_links": false,
+        "member_count_channel": false
+    },
+
+    "channel_setup": {
+        "welcome_channel": "802893885235003402",
+        "general_logs_channel": "802893885235003402",
+	"logger_delete_edit": "802893885235003402",
+        "kick_logs_channel": "802893885235003402",
+        "ban_logs_channel": "802893885235003402",
+        "warning_logs_channel": "802893885235003402",
+        "mute_logs_channel": "802893885235003402",
+        "command_logs_channel": "802893885235003402",
+     "ticket_category": "801990637721223169"
+    },
+
+    "join_roles": {
+        "role": "712976142612693042"
+    },
+
+    "ticket_system": {
+        "support_role": "801871710109564988",  
+        "auto_reply": true,
+        "auto_reply_message": "Your ticket has been created. We will help you as soon as possible."
+    },
+
+    "moderation_module": {
+        "mute_role": "Muted",
+        "DM_kicked_user": true,
+        "DM_banned_user": true,
+        "DM_muted_user": true,
+        "DM_warned_user": true
+    },
+
+    "filter_module": {
+        "language_bypass_role": "",
+        "link_bypass_role": "",
+        "filter_links": ["bing.com", "discordapp.com", "discord.gg"],
+        "filter_words": ["fuck", "kanker", "hoer", "slet", "hoertje", "sletje", "kut", "tyfus"]
+    },
+
+    "member_count_module": {
+        "member_count_channel": "705158250659708939"
+    }
+}
