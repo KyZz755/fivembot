@@ -8,13 +8,12 @@ bot.commands = new Discord.Collection();
 
 // status 
 			 let statuses = [
-        "🔵 Service",
-        "🛒NL/EN FiveM Shop" 
+        "🚀Space Leaks",
 
     ]
     setInterval(function(){
             let status = statuses[Math.floor(Math.random() * statuses.length)];
-                     
+            bot.user.setActivity(status, {type:"WATCHING"})
 
         }, 5000) //Seconds
 
