@@ -8,7 +8,8 @@ bot.commands = new Discord.Collection();
 
 // status 
 			 let statuses = [
-        "🚀Space Leaks",
+				 "🔵 Service",
+        "🛒NL/EN FiveM Shop",
 
     ]
     setInterval(function(){
